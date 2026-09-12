@@ -16,7 +16,7 @@
   },
   "action": {
     "default_popup": "popup.html",
-    "default_title": "قیمت تتر برای دوکله پوک ❤️"
+    "default_title": "نمایش قیمت لحظه‌ای تتر"
   },
   "icons": {
     "48": "icon.png"
