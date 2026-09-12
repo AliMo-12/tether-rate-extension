@@ -40,7 +40,6 @@ Chrome extension that shows the live USDT (Tether) to Toman price in the browser
 
 اگه این پروژه به دردت خورد و خواستی حمایت کنی:
 
-**USDT (BEP20):** 0x32522b633602d6532FbF2b6f4071EBD1674E23Ba
 
 
 ## لایسنس
