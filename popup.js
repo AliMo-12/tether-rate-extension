@@ -39,8 +39,8 @@ function render(payload) {
 
 
 // نمایش آخرین قیمت ذخیره شده
-chrome.storage.local.get("nobitexUsdt", (res) => {
-  render(res.nobitexUsdt);
+chrome.storage.local.get("arzdigitalUsdt", (res) => {
+  render(res.arzdigitalUsdt);
 });
 
 
@@ -59,8 +59,8 @@ chrome.runtime.sendMessage(
 // گوش دادن به تغییر قیمت
 chrome.storage.onChanged.addListener((changes) => {
 
-  if (changes.nobitexUsdt) {
-    render(changes.nobitexUsdt.newValue);
+  if (changes.arzdigitalUsdt) {
+    render(changes.arzdigitalUsdt.newValue);
   }
 
 });
