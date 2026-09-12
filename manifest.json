@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "دوکله پوک ❤️",
+  "version": "2.0",
+  "description": "نمایش قیمت لحظه‌ای تتر",
+  "permissions": [
+    "storage",
+    "alarms"
+  ],
+  "host_permissions": [
+    "https://arzdigital.com/*",
+    "https://ws.arzdigital.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "قیمت تتر برای دوکله پوک ❤️"
+  },
+  "icons": {
+    "48": "icon.png"
+  }
+}
