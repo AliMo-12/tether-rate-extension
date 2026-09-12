@@ -90,7 +90,7 @@ function connectArzDigitalWS() {
 
 
       await chrome.storage.local.set({
-        nobitexUsdt: payload
+        arzdigitalUsdt: payload
       });
 
 
@@ -152,11 +152,11 @@ chrome.runtime.onMessage.addListener(
 
 
       chrome.storage.local.get(
-        "nobitexUsdt",
+        "arzdigitalUsdt",
         (res) => {
 
           sendResponse(
-            res.nobitexUsdt || null
+            res.arzdigitalUsdt || null
           );
 
         }
